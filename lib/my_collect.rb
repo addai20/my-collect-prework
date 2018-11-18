@@ -3,7 +3,7 @@ def my_collect(collection)
   i = 0 
   while i < collection.length
     yield collection[i]
-        insert code here maybe?
+        #insert code here maybe?
     i+=1
   end
   return new_collection
