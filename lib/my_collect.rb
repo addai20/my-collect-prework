@@ -9,7 +9,7 @@ def my_collect(collection)
   return new_collection
 end
 
-my_collect{|member| new_collection << member}
+my_collect {|i| new_collection << member}
 
 
 
