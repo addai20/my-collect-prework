@@ -4,6 +4,7 @@ end
 
 
 
+# https://stackoverflow.com/questions/5347949/whats-different-between-each-and-collect-method-in-ruby
 
 Array#each takes an array and applies the given block over all items. It doesn't affect the array or creates a new object. It is just a way of looping over items. Also it returns self.
 
